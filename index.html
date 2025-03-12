@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel-website</title>
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
+
+   
+  </head>
+  <body>
+     <!-- main tag start  -->
+       <main>
+          <!-- this container use for header and intro-banner backgorund image  -->
+         <div class="header-intro-container">
+
+           <!-- this is a genaric container  -->
+         <div class="container">
+          <!-- header tag start  -->
+            <header>
+            <nav class="navbar navbar-expand-lg">
+              <div class="container">
+                <!-- logo  -->
+                <a class="navbar-brand text-white fs-1" href="#" style="font-family: 'Aclonica', serif;">Travel</a>
+
+
+                <!-- Start this button use for media qury -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                 <!-- /End this button use for media qury -->
+                  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <!-- item tag start means ul  -->
+                   <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0 gap-5"><!-- ms-auto eska mtlb left side move krna , me-auto (me =Margin End)  (mb = Margin Bottom)-->
+                    <li class="nav-item">
+                      <a class="nav-link active text-white fs-4" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white fs-4" href="#">About</a>
+                    </li>
+                    <!-- this tag use for drap button tag start  -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-white fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Honeymoon Packages</a></li>
+                        <li><a class="dropdown-item" href="#">Tours Pakages</a></li>
+                        <!-- <li><hr class="dropdown-divider"></li>  its use for break extra div -->
+                        <li><a class="dropdown-item" href="#">MUsical Events</a></li>
+                        <li><a class="dropdown-item" href="#">Bulid Pakages</a></li>
+                      </ul>
+                      <li class="nav-item">
+                        <a class="nav-link text-white fs-4" aria-current="page" href="#">Upcooming Packages</a>
+                      </li>
+                    </li>
+                  </ul>
+                  <!-- item tag End means ul  -->
+                   <!-- this button tag  -->
+                  <button type="button" class="btn btn-danger fs-5">Get in Touch</button>                
+                </div>
+              </div>
+            </nav>
+          </header>
+          <!-- /header tag end  -->
+
+          <section class="no-matter-where">
+            <!-- h2 container  -->
+          <div class="container intro-banner">
+            <div class="row">
+              <div class="col-lg-6 col-md-8 col-12 mb-5">
+                <h2 class="text-white fs-1"  style="font-family: 'Poppins', serif;">No matter where you’re going to, we’ll take you there</h2>
+              </div>
+            </div>
+          </div>
+           <!-- /h2 container End -->
+          </section>
+
+          <section class="travel-type">
+            <!-- travel-type container start  -->
+            <div class="container">
+              <div class="row">
+                <div class="col d-flex gap-3">
+                  <nav class="navbar navbar-expand-lg mb-5 bg-secondary rounded">
+                    <div class="navbar-collapse">
+                      <ul class="navbar-nav me-auto mb-1 text-white gap-3">
+                        <li class="nav-item">
+                          <a class="nav-link active text-white fs-4">Where To?</a>
+                        </li>
+                        <li class="nav-item">
+                          <select class="form-select bg-secondary border-0 mt-1 text-white fs-4">
+                            <option selected>Travel Type</option>
+                            <option value="1">International</option>
+                            <option value="2">National</option>
+                          </select>
+                        </li>
+                        <li class="nav-item">
+                          <select class="form-select bg-secondary border-0 mt-1 text-white fs-4">
+                            <option selected>Duration</option>
+                            <option value="1">30 Days</option>
+                            <option value="2">15 Days</option>
+                            <option value="3">7 Days</option>
+                          </select>
+                        </li>
+                      </ul>
+                      <button type="button" class="btn bg-danger text-white ms-5">Submit</button>
+                      <!-- Button right aligned -->
+                    </div>
+                  </nav>
+                  <!-- travel-type container End  -->
+                </div>
+              </div>
+            </div>
+          </section>          
+        </div>
+        </div>
+        
+          <!-- fly-emirate start  -->
+          <section class="fly-emirates bg-secondary ">
+            <div class="container">
+              <div class="row fs-3 d-flex gap-4 text-white p-2">
+                <div class="col text-center col-6 col-md-4 col-lg-2">
+                  <div class="fs-6">Fly</div>
+                  <div>Emirates</div>
+                </div>
+                <div class="col mt-3 col-6 col-md-4 col-lg-2">trivago</div>
+                <div class="col mt-3">
+                  <i class="fa-solid fa-plane-arrival rotate-ani"></i> airbnd
+                </div>
+                <div class="col mt-1">
+                  <div class="fs-6 ms-0">TURKISH</div>
+                  <div class="fs-4">AIRLINE <i class="fa-solid fa-mound rotate-ani"></i></div>
+                </div>
+                <div class="col mt-3 col-6 col-md-4 col-lg-2">
+                  <i class="fa-brands fa-pied-piper-hat rotate-ani mb-1"></i> SWISS
+                </div>
+              </div>
+            </div>
+          </section>          
+          <!-- /fly-emirate end  -->
+
+         <!-- category tag start  -->
+         <section class="category">
+          <div class="container">
+            <div class="row">
+              <div class="w-100 text-center mt-5">
+                <div class="">CATEGORY</div>
+                <div class="fs-1 fw-bold" style="color: #181E4B;">We Offer Best Services</div>
+              </div>
+            </div>
+          </div>
+         </section>
+          <!-- category tag End  -->
+        
+         <!-- best-flight-option strat  -->
+         <section class="best-flight-option">
+          <div class="container">
+            <div class="row gx-5 gy-5 p-5 justify-content-center">
+              <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                <img src="./Assets/img/tour-guide 1.png" alt="" class="img-fluid mb-2">  
+                <h5 class="fw-bold">Guided Tours</h5>
+                <p class="text-muted">sunt qui repellat saepe quo velit aperiam id aliquam placeat</p>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                <img src="./Assets/img/travelling 1.png" alt="" class="img-fluid mb-2">  
+                <h5 class="fw-bold">Guided Tours</h5>
+                <p class="text-muted">sunt qui repellat saepe quo velit aperiam id aliquam placeat</p>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                <img src="./Assets/img/hands 1.png" alt="" class="img-fluid mb-2">  
+                <h5 class="fw-bold">Guided Tours</h5>
+                <p class="text-muted">sunt qui repellat saepe quo velit aperiam id aliquam placeat</p>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                <img src="./Assets/img/medical-team 1.png" alt="" class="img-fluid mb-2">  
+                <h5 class="fw-bold">Guided Tours</h5>
+                <p class="text-muted">sunt qui repellat saepe quo velit aperiam id aliquam placeat</p>
+              </div>
+            </div>
+          </div>
+        </section>
+         <!-- best-flight-option end  -->
+         
+         <!-- tropical destination start-->
+          <section class="tropical-destination">
+            <div class="container">
+              <div class="row">
+                <div class="col-5">
+                  <img src="./Assets/img/Illustration.png" alt="illustration" class="w-100">
+                </div>
+                <div class="col-5 offset-2 align-self-center mt-5">
+                  <h4 class="text-danger">Honeymoon Specials</h4>
+                  <h1 class="mt-4">Our Romantic Tropical Destinations</h1>
+                  <p class="mt-4">Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio quibusdam!</p>
+                  <button class="btn btn-danger mt-3">view packages</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- tropical destination end  -->
+
+          <!--Resort Booking section start  -->
+          <section class="resort-booking py-5">
+            <div class="container">
+              <div class="row mt-5">
+
+                <div class="col-lg-4 offset-1">
+                  <h5 class="mt-5 fs-4 text-danger">Fast & easy</h5>
+                  <h1 class="mt-3">Get Your Favourite Resort Booking</h1>
+
+                  <!-- icon box start  -->
+                   <div class="">
+                  <div class="d-flex align-items-center gap-3 mt-3">
+                    <img src="./Assets/img/rectangle.png" alt="" width="50" class="mb-5">
+                    <div>
+                        <h4 class="mt-2">Chose Destination</h4>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, atque.</p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-3 mt-3">
+                    <img src="./Assets/img/rc.png" alt="" width="50" class="mb-5">
+                    <div class="">
+                      <h4 class="mt-2">Check Availability</h4>
+                      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, atque.</p>
+                    </div>
+                    </div>
+                      <div class="d-flex align-items-center gap-3 mt-3">
+                        <img src="./Assets/img/checck-box.png" alt="" width="50" class="mb-5">
+                        <div class="">
+                          <h4 class="mt-2">Lets, Go</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quia.</p>
+                        </div>
+                      </div>
+                </div>
+                </div>
+                 <!-- icon box end  -->
+                  
+                <div class="col-lg-7 mt-5">
+                  <img src="./Assets/img/resort.png" alt="" class="w-100">
+                </div>
+              </div>
+            </div>
+          </section>
+           <!--Resort Booking section end  -->
+
+           <!-- next holiday amazing start  -->
+           <section class="holiday-section">
+            <div class="container-fluid">
+              <div class="row text-white py-5" 
+                   style="background: url('./Assets/img/Sepratir-vector.png') no-repeat center/cover; height: 300px;">
+                  <div class="col-5 ms-5 mt-5">
+                      <h1 class="offset-2">Let’s make your next holiday amazing</h1>
+                  </div>
+              </div>
+          </div>          
+           </section>
+           <!-- next holiday amazing end  -->
+
+           <!-- Europe Sightseeing start  -->
+            <section class="europe-sightseeing"></section>
+         <div class="container">
+          <div class="row py-5">
+            <div class="col-6 mt-5">
+              <h4 class="text-danger">PROMOTION</h4>
+              <h1 class="fs-1">We Provide You Best Europe Sightseeing Tours</h1>
+              <p>Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio quibusdam!</p>
+              <button class="btn bg-danger py-2 mt-3">View Pakages</button>
+            </div>
+            <div class="col-4 offset-2 d-flex align-items-center">
+              <img src="./Assets/img/tower.png" alt="" class="w-75 mt-5">
+              <div class="text text-nowrap">
+                <h3 class="fs-2">Breath Taking  Viewes</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section - Logo - Partners  -->
+        <!-- <section class="logo-partners py-5">
+          <div class="container">
+            <div class="js-logo-partners">
+              <div><img src="./Assets/img/Destination 2.png" alt="Brand One"></div>
+              <div><img src="./Assets/img/Destination 2.png" alt="Brand Two"></div>
+              <div><img src="./Assets/img/Destination 2.png" alt="Brand Three"></div>
+              <div><img src="./Assets/img/Destination 2.png" alt="Brand Four"></div>
+              <div><img src="./Assets/img/Destination 2.png" alt="Brand Five"></div>
+              <div><img src="./Assets/img/Destination 2.png" alt="Brand Six"></div>
+            </div>
+          </div>
+        </section> -->
+        <!-- Section - Logo - Partners -->
+
+        </div>
+        <!-- Europe Sightseeing end  -->
+
+           <!-- Explore Nature and Cities start -->
+            <section class="explore-nature-cities">
+               <div class="container-fluid">
+                 <div class="row">
+                   <!-- Nature Section -->
+                   <div class="col-6 nature-bg text-white d-flex flex-column align-items-center justify-content-center p-5 ">
+                     <h4>Promotion</h4>
+                     <h1>Explore Nature</h1>
+                     <button class="btn btn-outline-dark mt-3 text-white border-white">View Packages</button>
+                   </div>
+
+                   <!-- City Section -->
+                   <div class="col-6 city-bg text-white d-flex flex-column align-items-center justify-content-center p-5">
+                     <h4>Promotion</h4>
+                     <h1>Explore Cities</h1>
+                     <button class="btn btn-outline-dark mt-3 text-white border-white">View Packages</button>
+                   </div>
+                 </div>
+               </div>
+              </section>
+               <!-- Explore Nature and Cities end -->
+
+               <!-- our treanding pakages strat  -->
+                <section class="our-treanding-packages">
+                  <div class="container">
+                    <div class="text-center">
+                      <h4 class="mt-5 fs-6 text-danger">TRENDY</h4>
+                      <h1 class="mb-5">Our Treanding Tour Packages</h1>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                      <img src="./Assets/img/Group 1000001722.png" alt="" class="w-100">
+                      </div>
+                      <div class="col-4">
+                      <img src="./Assets/img/Group 1000001723.png" alt="" class="w-100">
+                      </div>
+                      <div class="col-4">
+                      <img src="./Assets/img/Group 1000001724.png" alt="" class="w-100">
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- our treanding pakages strat  -->
+
+                <!-- testimonial section 2 start  -->
+                <section class="testimonial bg-[url(h1-background-ig-1 1(1).png)]">
+                  <!-- <div class="container">
+                    <div class="row">
+                      <div class="text-center">
+                      <h5 class="mt-5">PROMOTION</h5>
+                      <h1>See What Our Clients Say About Us</h1>
+                    </div>
+                    <div class="col-4 mt-5 mx-auto text-center position-relative">
+                      <img src="./Assets/img/Testimonials.png" alt="" class="w-75 mt-5 py-5">
+                      <h2 class="position-absolute top-50 start-50 translate-middle text-white">Zain Khan</h2>
+                    </div>                                       
+                    </div>
+                  </div> -->
+                <section class="testimonial bg-[url(h1-background-ig-1 1(1).png)]">
+                  <div class="container">
+                    <div class="row">
+                    <div class="col-4 mt-5 mx-auto text-center position-relative">
+                      <img src="./Assets/img/Testimonial section.png" alt="" class="w-100 mt-3 py-4">
+                    </div>                                       
+                    </div>
+                  </div>
+                </section>
+              </section>
+              <!-- testimonial section 2 end  -->
+
+             <!-- Footer Section Start -->
+             <section>
+               <footer class="bg-dark text-white pt-5 pb-3">
+                 <div class="container">
+                   <div class="row">
+                     <!-- Left Side -->
+                     <div class="col-lg-3 col-md-6 col-12 mb-4">
+                      <h1 class="fs-3 fw-bold">Travel</h1>
+                      <p class="text-secondary">Travel helps companies manage payments easily.</p>
+                    
+                      <!-- Social Icons -->
+                      <div class="d-flex gap-3 mt-3">
+                        <a href="#" class="text-white fs-3">
+                          <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-white fs-3">
+                          <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-white fs-3">
+                          <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                      </div>
+                    </div>
+                    
+                    <!-- Company Column -->
+                     <div class="col-lg-3 col-md-6 col-12 mb-4">
+                       <h4 class="fw-bold">Company</h4>
+                       <ul class="list-unstyled">
+                         <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">About Us</a></li>
+                         <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Careers</a></li>
+                         <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Blog</a></li>
+                         <li class="mb-2"><a href="#" class="text-decoration-none text-secondary">Pricing</a></li>
+                       </ul>
+                     </div>
+
+                     <!-- Destination Column -->
+                     <div class="col-lg-3 col-md-6 col-12 mb-4">
+                       <h4 class="fw-bold">Destinations</h4>
+                       <ul class="list-unstyled">
+                         <li class="mb-2">Maldives</li>
+                         <li class="mb-2">Los Angeles</li>
+                         <li class="mb-2">Las Vegas</li>
+                         <li class="mb-2">Toronto</li>
+                       </ul>
+                     </div>
+
+                     <!-- Newsletter Column -->
+                     <div class="col-lg-3 col-md-6 col-12">
+                       <h4 class="fw-bold">Join Our Newsletter</h4>
+                       <form>
+                         <div class="input-group mb-3">
+                           <input type="text" class="form-control" placeholder="Your Email">
+                           <button class="btn btn-danger text-white">Subscribe</button>
+                         </div>
+                       </form>
+                       <p class="text-secondary small">
+                         *Will send you weekly updates for your better tour packages.
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+               </footer>
+             </section>
+             <!-- Footer Section End -->
+
+      </main>
+      <!-- /main tag end  -->
+   
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/fontawsomesdn.all.min.js"></script>
+    <script src="./js/app.js"></script>
+   
+  </body>
+</html>

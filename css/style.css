@@ -1,0 +1,41 @@
+.header-intro-container{
+    background-image: url("../Assets/img/intro-banner-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+body{
+    background-color: #F5F5F5;
+}
+.intro-banner{
+    margin-top: 10rem;
+
+    .navbar{
+        background-color: #ffffff;
+    }
+}
+
+.text {
+    transform: rotate(-90deg);
+    transform-origin: 8rem 8rem;
+}
+
+/* Nature explore  */
+.nature-bg {
+    background: url('../Assets/img/Explore\ Nature.png') center/cover no-repeat;
+  }
+  .city-bg {
+    background: url('../Assets/img/Rectangle\ 19304.png') center/cover no-repeat;
+  }
+
+  /* testimonial  */
+.testimonial{
+    background: url('../Assets/img/h1-background-img-1\ 1\ \(1\).png') center/cover no-repeat;
+}
+
+/* fly-emirate start  */
+.rotate-ani {
+    transform: rotate(360deg); /* Yeh kitna degree ghumanah hai wo likho */
+  }
+  
+  
